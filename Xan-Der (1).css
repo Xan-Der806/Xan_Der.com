@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500; 
+}
+body{
+    padding-top:15px ;
+ background-image: url(images1/frederik-hojfeldt-nielsen-iXEqk-2SqUg-unsplash.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+}
+.main{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: black;
+}
+    button{
+    font-size: 40px;
+    font-weight: 500;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: transparent;
+}
+nav{
+    float: left;
+	display: grid;
+padding-left: 200px;
+    margin: 30px;
+}
+nav a button{
+    padding: 20px;
+    display:inline-block;
+    background-color: #FFFFFF00;
+    color: #FFFFFF;
+	transition: 0.2s ease-in;
+    text-decoration:underline;
+}
+nav a button:hover{
+    background-color:#FFFFFF00;
+	color:black;
+    margin: 5px;
+}
+.coding{
+    float:right;
+    margin: 0px;
+    padding-right: 100px;
+    font-size: large;
+    font-weight: 300;
+}
+.list2{
+    list-style: none;
+}
+.fill{
+  font-size: large;
+}
+.red{
+float: right;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
+height: 100px;
+width: 400px;
+background-color: transparent;
+box-shadow: black 4px 4px 4px 4px;
+border-radius: 15px;
+display:inline-table;
+margin: 10px;
+padding: 10px;
+}
+div label{
+    font-family: 'Times New Roman', Times, serif;
+font-weight: 300;
+margin: 10px;
+padding: 20px
+}
+.reset1{
+    padding-left: 80px;
+}
+.reset button{
+    margin: 10px;
+    width:100px;
+    height: 40px;
+    font-size: large;  
+}
+.reset button:hover{
+    background-color: black;
+    color:white;
+
+}
+reset2{
+    place-items: right;
+}
+.form{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 10px;
+}
+
