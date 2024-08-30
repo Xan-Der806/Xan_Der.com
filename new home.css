@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:0ch;
+}
+body{
+    background-image: url(images1/The-portal-tree-1242023\ \(1\).png);
+    background-size:cover;
+ background-repeat: no-repeat;
+
+}
+.menu{
+    float:right;
+    margin:20px;
+    padding: 20px;
+    text-decoration: none;
+}
+.menu nav ul a{
+padding: 20px;
+text-decoration: none ;
+font-weight: 500;
+color :lightgray;
+}
+.menu nav ul a:hover{
+    color: black;
+}
+.logo{
+    float:left;
+    padding: 20px;
+    margin:20px;
+    padding-left: 30px;
+}
+
+.word {
+    align-items: center;
+    padding: 250px;
+    padding-top: 175px;
+    place-items: center;
+    display: grid;
+}
+.word p{
+    font-size: 50px;
+    font-weight: 800;
+}
+.side{
+    font-size: large;
+    font-weight: 300;
+}
+.btn{
+    margin-top: 20px;
+    font-size: large;
+    }
+    button{
+        height: 75px;
+        width: 250px;
+        border-radius: 20px;
+         background-color:lightblue;
+    }
+    button a{
+        color:black;
+        text-decoration: none;
+    }
